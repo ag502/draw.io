@@ -1,0 +1,117 @@
+<mxfile host="app.diagrams.net" modified="2022-09-17T11:20:08.005Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="1LggD1pL9I7iWP2utYpZ" version="20.3.2" type="github">
+  <diagram id="dn52SFDhS9xITpZpQM2w" name="페이지-1">
+    <mxGraphModel dx="1234" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" parent="1" source="2wIUXBWzUukxYBCkdtS_-7" target="2wIUXBWzUukxYBCkdtS_-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-2" value="생성" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2wIUXBWzUukxYBCkdtS_-1" vertex="1" connectable="0">
+          <mxGeometry x="-0.1259" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" parent="1" source="2wIUXBWzUukxYBCkdtS_-7" target="2wIUXBWzUukxYBCkdtS_-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-4" value="생성" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2wIUXBWzUukxYBCkdtS_-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.089" y="-4" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="2wIUXBWzUukxYBCkdtS_-7" target="2wIUXBWzUukxYBCkdtS_-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-6" value="생성" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2wIUXBWzUukxYBCkdtS_-5" vertex="1" connectable="0">
+          <mxGeometry x="-0.4558" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-7" value="Client" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="150" y="319" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.005;entryY=0.163;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="2wIUXBWzUukxYBCkdtS_-10" target="2wIUXBWzUukxYBCkdtS_-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-9" value="Invoker에&lt;br&gt;Command 객체가 있다" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2wIUXBWzUukxYBCkdtS_-8" vertex="1" connectable="0">
+          <mxGeometry x="-0.1071" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-10" value="Invoker" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="319" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-11" value="setCommand()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2wIUXBWzUukxYBCkdtS_-10" vertex="1">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;&lt;i&gt;Command&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;i&gt;execute&lt;/i&gt;()&lt;br&gt;&lt;i&gt;undo&lt;/i&gt;()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="319" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" parent="1" source="2wIUXBWzUukxYBCkdtS_-15" target="2wIUXBWzUukxYBCkdtS_-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="725" y="452" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-14" value="ConcreteCommand에&lt;br&gt;Receiver가 있다" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2wIUXBWzUukxYBCkdtS_-13" vertex="1" connectable="0">
+          <mxGeometry x="0.0725" y="-3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-15" value="ConcreteCommand" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="725" y="439" width="140" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-16" value="execute()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2wIUXBWzUukxYBCkdtS_-15" vertex="1">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-17" value="undo()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2wIUXBWzUukxYBCkdtS_-15" vertex="1">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-18" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" source="2wIUXBWzUukxYBCkdtS_-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="499" as="sourcePoint" />
+            <mxPoint x="960" y="519" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="960" y="479" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-19" value="execute() {&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;receiver.action()&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="900" y="517" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-20" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="2wIUXBWzUukxYBCkdtS_-15" target="2wIUXBWzUukxYBCkdtS_-12" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="800" y="429" as="sourcePoint" />
+            <mxPoint x="800" y="399" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="2wIUXBWzUukxYBCkdtS_-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="489" as="sourcePoint" />
+            <mxPoint x="530" y="289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-22" value="인보커에는 명령이 들어있으며&lt;br&gt;execute() 메소드를 호출함으로써&lt;br&gt;커멘드 객체에게 특정 작업을 수행해 달라는 요구를 하게됨" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="530" y="229" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-23" value="Receiver" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="439" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-24" value="action()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2wIUXBWzUukxYBCkdtS_-23" vertex="1">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-25" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.006;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="2wIUXBWzUukxYBCkdtS_-17" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="569" as="sourcePoint" />
+            <mxPoint x="730" y="519" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wIUXBWzUukxYBCkdtS_-26" value="ConcreteCommand는 특정 행동과 리시버를 연결해 줌" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="280" y="569" width="290" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
